@@ -1,0 +1,20 @@
+[
+  {
+    "value": "size",
+    "synonyms": [
+      "size"
+    ]
+  },
+  {
+    "value": "type",
+    "synonyms": [
+      "type"
+    ]
+  },
+  {
+    "value": "text",
+    "synonyms": [
+      "text"
+    ]
+  }
+]

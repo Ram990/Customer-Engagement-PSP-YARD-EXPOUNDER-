@@ -1,0 +1,75 @@
+[
+  {
+    "id": "aea7fdce-dd98-4eca-a3e2-d4ac777a54d3",
+    "data": [
+      {
+        "text": "zip code is 466",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f96797a8-20fc-45ec-803e-cb51105c8c27",
+    "data": [
+      {
+        "text": "0204",
+        "meta": "@sys.any",
+        "alias": "Greets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1227bca-3915-43d1-9fc8-5f2c15f35865",
+    "data": [
+      {
+        "text": "Product code is ",
+        "userDefined": false
+      },
+      {
+        "text": "990",
+        "meta": "@sys.any",
+        "alias": "Greets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb7e8fcf-b228-4067-a37c-70724c4a5b58",
+    "data": [
+      {
+        "text": "hey there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7997b1d6-dd5e-4389-8831-406404f73e4d",
+    "data": [
+      {
+        "text": "a good day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "id": "e774c20e-a2ba-494c-8d67-c41ac05fee56",
+  "name": "GATHERDATA",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e2c15b5d-cdf4-4f32-9222-79b8e440218d",
+          "name": "Greets",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$Greets",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Hello welcome to PSP YARD GOT-BOT"
+            },
+            {
+              "lang": "en",
+              "value": "HI ENJOY YOUR SHOPPING WITH US"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1336cf07-4a22-4ad7-8e5c-2cc2e6fa8a23",
+          "name": "size",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size did you want"
+            },
+            {
+              "lang": "en",
+              "value": "what\u0027s you size"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "6a0e22c4-f81e-4f30-8978-603ca7428239",
+          "name": "drink",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$drink",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "great and what drink would you want"
+            },
+            {
+              "lang": "en",
+              "value": "sounds awesome, Now what drink do you like?"
+            },
+            {
+              "lang": "en",
+              "value": "Thanks and what drink will you have today?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "eae0a41c-d0fc-42d9-8d52-bd7e4322aae4",
+          "name": "Type",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "iced or double iced"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "425cea43-8f98-4d23-a230-3c14d082077e",
+          "name": "temp",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$temp",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what\u0027s your temperature now. Is normal or hot"
+            },
+            {
+              "lang": "en",
+              "value": "Is you health is normal today"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?",
+            "Well and come next time"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
